@@ -70,7 +70,7 @@ for c = 1:num_labels,
     thetas = [thetas, theta];
 end;
 
-all_theta = thetas;
+all_theta = thetas';
 % =========================================================================
 
 
